@@ -24,14 +24,14 @@ const AboutSection = () => {
           
           <div className="order-1 md:order-2 space-y-6">
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              I&apos;m a passionate developer with a strong foundation in Full stack Development and Data Analysis. 
-              With 3 years of experience in the field, I&apos;ve had the opportunity to work 
+              I am a passionate developer with a strong foundation in Full stack Development and Data Analysis. 
+              With 3 years of experience in the field, I have had the opportunity to work 
               on diverse projects that have shaped my expertise in React, Next.js, Tailwind CSS, and Python for Data Analysis.
             </p>
             
             <p className="text-lg text-gray-600 dark:text-gray-300">
               My journey in technology began with an interest in designing and building websites, and since then, 
-              I&apos;ve been dedicated to creating impactful solutions that make a difference.
+              I have been dedicated to creating impactful solutions that make a difference.
             </p>
             
             <div className="grid grid-cols-2 gap-4 mt-8">
