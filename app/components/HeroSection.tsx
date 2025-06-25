@@ -1,7 +1,5 @@
 'use client';
 
-import Link from 'next/link';
-
 const HeroSection = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -17,7 +15,7 @@ const HeroSection = () => {
           Hello there, <span className="wave">👋</span>
         </h1>
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-8">
-          I'm <span className="text-blue-600 dark:text-blue-400">Joseph Mburu</span>
+          I&apos;m <span className="text-blue-600 dark:text-blue-400">Joseph Mburu</span>
         </h2>
         <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-12 leading-relaxed">
           A passionate developer crafting beautiful and functional digital experiences. 
