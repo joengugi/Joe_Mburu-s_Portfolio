@@ -15,12 +15,12 @@ const SkillsSection = () => {
     {
       title: "Tools & Platforms",
       icon: <FaTools className="w-8 h-8" />,
-      skills: ["Git", "AWS", "VS Code", "Figma", "Azure", "AI Tools"]
+      skills: ["Git", "AWS", "VS Code", "Figma", "AI Tools", "Jupyter Notebook"]
     },
     {
       title: "Data Analysis",
       icon: <FaMobile className="w-8 h-8" />,
-      skills: ["Python", "R", "Power BI", "Tableau", "Excel"]
+      skills: ["Python", "R", "Power BI", "Tableau", "Excel", "SQL", "Power Point"]
     }
   ];
 
