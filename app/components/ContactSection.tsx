@@ -1,6 +1,12 @@
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
+import { useForm, ValidationError } from '@formspree/react';
 
 const ContactSection = () => {
+  const [state, handleSubmit] = useForm("xzzgqqov");
+  if (state.succeeded) {
+    return <p>Thanks for reaching out!</p>;
+  }
+
   return (
     <section id="contact" className="py-20 bg-white dark:bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -47,7 +53,7 @@ const ContactSection = () => {
           </div>
 
           {/* Contact Form */}
-          <form className="space-y-6" action="https://formspree.io/f/xzzgqqov" method='POST'>
+          <form className="space-y-6" onSubmit={handleSubmit}>
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                 Name
