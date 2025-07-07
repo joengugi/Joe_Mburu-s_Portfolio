@@ -1,5 +1,5 @@
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm } from '@formspree/react';
 
 const ContactSection = () => {
   const [state, handleSubmit] = useForm("xzzgqqov");
