@@ -1,3 +1,5 @@
+'use client';
+
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 import { useForm } from '@formspree/react';
 

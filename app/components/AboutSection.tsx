@@ -13,7 +13,7 @@ const AboutSection = () => {
           <div className="order-2 md:order-1">
             <div className="relative aspect-square max-w-md mx-auto">
               <Image
-                src="/Me_core.jpeg"
+                src="/Me_core.JPG"
                 alt="Joseph Mburu"
                 fill
                 className="rounded-2xl object-cover shadow-xl"
@@ -27,6 +27,7 @@ const AboutSection = () => {
               I am a passionate developer with a strong foundation in Full stack Development and Data Analysis. 
               With 3 years of experience in the field, I have had the opportunity to work 
               on diverse projects that have shaped my expertise in React, Next.js, Tailwind CSS, and Python for Data Analysis.
+              I also have been freelancing for the past 3 years, and have picked up skills in areas such as Copywriting, article, and academic writing. 
             </p>
             
             <p className="text-lg text-gray-600 dark:text-gray-300">
@@ -51,4 +52,4 @@ const AboutSection = () => {
   );
 };
 
-export default AboutSection; 
+export default AboutSection;

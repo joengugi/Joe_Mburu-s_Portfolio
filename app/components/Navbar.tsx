@@ -31,6 +31,7 @@ const Navbar = () => {
               >
                 Projects
               </button>
+              
               <button 
                 onClick={() => scrollToSection('skills')}
                 className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
