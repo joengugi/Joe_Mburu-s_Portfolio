@@ -1,6 +1,6 @@
 'use client';
 
-import { FaCode, FaDatabase, FaTools, FaMobile, FaNetworkWired, FaPen, FaPenFancy, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+import { FaCode, FaTools, FaMobile, FaNetworkWired, FaPenFancy, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { useRef, useState, useEffect } from 'react';
 
 const SkillsSection = () => {
