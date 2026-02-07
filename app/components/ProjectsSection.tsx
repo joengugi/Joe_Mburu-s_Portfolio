@@ -23,14 +23,14 @@ const projects: Project[] = [
     liveLink: "https://pichcom-g.vercel.app/",
     githubLink: "https://github.com/joengugi/Pichcom-graphics/"
   },
-  {
-    title: "E-commerce Platform",
-    description: "Full-featured e-commerce platform with product management, cart functionality, and secure payment integration.",
-    image: "/placeholder.png",
-    technologies: ["React", "Node.js", "MongoDB", "Express"],
-    liveLink: "https://ecommerce-demo.com",
-    githubLink: "https://github.com/joengugi/ecommerce"
-  },
+  // {
+  //   title: "E-commerce Platform",
+  //   description: "Full-featured e-commerce platform with product management, cart functionality, and secure payment integration.",
+  //   image: "/placeholder.png",
+  //   technologies: ["React", "Node.js", "MongoDB", "Express"],
+  //   liveLink: "https://ecommerce-demo.com",
+  //   githubLink: "https://github.com/joengugi/ecommerce"
+  // },
   {
     title: "Task Management App",
     description: "A collaborative task management application with real-time updates, task assignment, and progress tracking.",
